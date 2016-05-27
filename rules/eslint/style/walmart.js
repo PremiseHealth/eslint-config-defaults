@@ -3,7 +3,7 @@
 module.exports = {
   "rules": {
     // enforce spacing inside array brackets
-    "array-bracket-spacing": 0,
+    "array-bracket-spacing": 1,
     // disallow or enforce spaces inside of single line blocks
     "block-spacing": 0,
     // enforce one true brace style
@@ -49,7 +49,7 @@ module.exports = {
     // specify the maximum number of statement allowed in a function
     "max-statements": [2, 15],
     // require a capital letter for constructors
-    "new-cap": 2,
+    "new-cap": 0,
     // disallow the omission of parentheses when invoking a constructor with no arguments
     "new-parens": 2,
     // allow/disallow an empty newline after var statement
@@ -77,7 +77,7 @@ module.exports = {
     // disallow use of unary operators, ++ and --
     "no-plusplus": 0,
     // disallow use of certain syntax in code
-    "no-restricted-syntax": 0,
+    "no-restricted-syntax": 1,
     // disallow space between function identifier and application
     "no-spaced-func": 2,
     // disallow the use of ternary operators
@@ -85,7 +85,7 @@ module.exports = {
     // disallow trailing whitespace at the end of lines
     "no-trailing-spaces": 2,
     // disallow dangling underscores in identifiers
-    "no-underscore-dangle": 0,
+    "no-underscore-dangle": 1,
     // disallow the use of Boolean literals in conditional expressions
     "no-unneeded-ternary": 0,
     // require or disallow padding inside curly braces
